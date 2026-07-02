@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+  <title>Jancarlos Linares · Portafolio Profesional</title>
+  <meta name="description" content="Portafolio de Jancarlos Froilan Linares Sagastizabal - Profesional en Operaciones, Análisis de Datos y Automatización de Procesos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== FONDO TECNOLÓGICO ===== -->
+<div class="tech-background">
+  <div class="tech-dots"></div>
+  <div class="tech-gradient"></div>
+  <div class="tech-waves">
+    <svg viewBox="0 0 1920 300" preserveAspectRatio="none">
+      <path d="M0,200 C320,100 640,250 960,150 C1280,50 1600,200 1920,100 L1920,300 L0,300 Z" fill="#2563EB"/>
+      <path d="M0,250 C320,150 640,280 960,200 C1280,120 1600,250 1920,180 L1920,300 L0,300 Z" fill="#2563EB" opacity="0.5"/>
+      <path d="M0,280 C320,220 640,300 960,250 C1280,200 1600,280 1920,230 L1920,300 L0,300 Z" fill="#2563EB" opacity="0.3"/>
+    </svg>
+  </div>
+  <div class="tech-circuit">
+    <svg viewBox="0 0 200 200">
+      <path d="M20,100 L60,100 L80,80 L120,80 L140,100 L180,100" stroke="#2563EB" stroke-width="1.5" fill="none"/>
+      <path d="M20,120 L60,120 L80,140 L120,140 L140,120 L180,120" stroke="#2563EB" stroke-width="1.5" fill="none"/>
+      <circle cx="60" cy="100" r="4" fill="#2563EB"/>
+      <circle cx="120" cy="80" r="4" fill="#2563EB"/>
+      <circle cx="140" cy="100" r="4" fill="#2563EB"/>
+      <circle cx="80" cy="140" r="4" fill="#2563EB"/>
+      <path d="M100,20 L100,60" stroke="#2563EB" stroke-width="1.5" fill="none"/>
+      <path d="M100,140 L100,180" stroke="#2563EB" stroke-width="1.5" fill="none"/>
+      <circle cx="100" cy="20" r="4" fill="#2563EB"/>
+      <circle cx="100" cy="180" r="4" fill="#2563EB"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="container">
+    <a href="#" class="logo">
+      <span>JL</span> Janco Hub
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#herramientas">Conocimiento</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+      <li><a href="documents/CV-JancarlosLinares.pdf" target="_blank" class="btn-cv">CV</a></li>
+            <li><a href="https://wa.me/51924115252" target="_blank" class="btn-whatsapp-nav"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio">
+  <div class="hero-background">
+    <div class="hero-bg-grid">
+      <div class="bg-line"></div>
+      <div class="bg-line"></div>
+      <div class="bg-line"></div>
+      <div class="bg-line"></div>
+    </div>
+    <div class="hero-bg-dots"></div>
+    <div class="hero-bg-circles">
+      <div class="bg-circle"></div>
+      <div class="bg-circle"></div>
+      <div class="bg-circle"></div>
+    </div>
+    <div class="hero-bg-code">
+      <span class="code-line">def transform_data(df):</span>
+      <span class="code-line">    return df.groupby('category').sum()</span>
+      <span class="code-line">SELECT * FROM dashboard</span>
+      <span class="code-line">WHERE status = 'active'</span>
+      <span class="code-line">function automate() {</span>
+      <span class="code-line">    process.optimize();</span>
+      <span class="code-line">}</span>
+    </div>
+    <div class="hero-bg-dashboard">
+      <div class="mini-chart bar-chart">
+        <div class="bar" style="height:40%"></div>
+        <div class="bar" style="height:65%"></div>
+        <div class="bar" style="height:80%"></div>
+        <div class="bar" style="height:55%"></div>
+        <div class="bar" style="height:90%"></div>
+        <div class="bar" style="height:70%"></div>
+        <div class="bar" style="height:45%"></div>
+      </div>
+      <div class="mini-chart line-chart">
+        <svg viewBox="0 0 100 40">
+          <polyline points="0,30 15,25 30,32 45,18 60,22 75,10 90,15 100,8" fill="none" stroke="#2563EB" stroke-width="2"/>
+          <polyline points="0,35 15,30 30,38 45,25 60,30 75,20 90,25 100,18" fill="none" stroke="#90CAF9" stroke-width="1.5" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="mini-kpi">
+        <span class="kpi-value">87%</span>
+        <span class="kpi-label">Eficiencia</span>
+      </div>
+    </div>
+    <div class="hero-bg-circuit">
+      <svg viewBox="0 0 200 200">
+        <path d="M20,100 L60,100 L80,80 L120,80 L140,100 L180,100" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.15"/>
+        <path d="M20,120 L60,120 L80,140 L120,140 L140,120 L180,120" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.15"/>
+        <circle cx="60" cy="100" r="3" fill="#2563EB" opacity="0.2"/>
+        <circle cx="120" cy="80" r="3" fill="#2563EB" opacity="0.2"/>
+        <circle cx="140" cy="100" r="3" fill="#2563EB" opacity="0.2"/>
+        <circle cx="80" cy="140" r="3" fill="#2563EB" opacity="0.2"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="container hero-grid">
+    <!-- Columna Izquierda: Texto -->
+    <div class="hero-content fade-in">
+      <p class="hero-welcome">BIENVENIDO A MI PORTAFOLIO</p>
+      <h1>Jancarlos Froilan <br><span>Linares Sagastizabal</span></h1>
+      <div class="hero-sub">Business Analyst · Data Analyst · Automation Specialist</div>
+      <p class="hero-tagline">Transformo procesos y datos en soluciones que impulsan resultados. Apasionado por la tecnología, la automatización y el análisis de datos para generar impacto real en las organizaciones.</p>
+      <div class="hero-buttons">
+        <a href="#proyectos" class="btn-primary">Ver Proyectos</a>
+        <a href="#sobremi" class="btn-outline">Conocer más</a>
+      </div>
+    </div>
+
+    <!-- Columna Derecha: Avatar con badge de verificación -->
+    <div class="hero-avatar fade-in delay-2">
+      <div class="avatar-frame">
+        <div class="avatar-badge">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <img src="assets/perfil.png" alt="Jancarlos Linares" class="profile-image">
+        <div class="avatar-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INDICADORES PROFESIONALES ===== -->
+<section class="section indicators-section">
+  <div class="container">
+    <div class="indicadores-grid">
+      <div class="indicador-item fade-in">
+        <span class="indicador-numero">+10</span>
+        <span class="indicador-label">Años de experiencia</span>
+      </div>
+      <div class="indicador-item fade-in delay-1">
+        <span class="indicador-numero">20+</span>
+        <span class="indicador-label">Proyectos realizados</span>
+      </div>
+      <div class="indicador-item fade-in delay-2">
+        <span class="indicador-numero">+8</span>
+        <span class="indicador-label">Tecnologías dominadas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ESPECIALIDADES ===== -->
+<section class="section" id="especialidades">
+  <div class="container">
+    <h2 class="section-title">Especialidades</h2>
+    <div class="especialidades-grid">
+      <div class="especialidad-item fade-in">
+        <div class="especialidad-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Análisis y Gestión de Datos</h3>
+        <p>Consolidación, limpieza, validación y transformación de información para la toma de decisiones.</p>
+      </div>
+      <div class="especialidad-item fade-in delay-1">
+        <div class="especialidad-icon"><i class="fas fa-robot"></i></div>
+        <h3>Automatización de Procesos</h3>
+        <p>Optimización de tareas mediante Google Apps Script, Power Automate y soluciones personalizadas.</p>
+      </div>
+      <div class="especialidad-item fade-in delay-2">
+        <div class="especialidad-icon"><i class="fas fa-chart-pie"></i></div>
+        <h3>Business Intelligence</h3>
+        <p>Dashboards ejecutivos e indicadores (KPIs) en Looker Studio y Power BI.</p>
+      </div>
+      <div class="especialidad-item fade-in delay-3">
+        <div class="especialidad-icon"><i class="fas fa-file-alt"></i></div>
+        <h3>Gestión Documentaria</h3>
+        <p>Estandarización de reportes, control documentario y mejora de procesos operativos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HERRAMIENTAS ===== -->
+<section class="section" id="herramientas">
+  <div class="container">
+    <h2 class="section-title">Herramientas</h2>
+    <div class="skills-cloud">
+      <span class="skill-pill"><i class="fas fa-table"></i> Google Sheets</span>
+      <span class="skill-pill"><i class="fas fa-code"></i> Google Apps Script</span>
+      <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+      <span class="skill-pill"><i class="fas fa-chart-bar"></i> Power BI</span>
+      <span class="skill-pill"><i class="fas fa-chart-pie"></i> Looker Studio</span>
+      <span class="skill-pill"><i class="fas fa-mobile-alt"></i> AppSheet</span>
+      <span class="skill-pill"><i class="fas fa-database"></i> SQL</span>
+      <span class="skill-pill"><i class="fas fa-file-excel"></i> Excel</span>
+      <span class="skill-pill"><i class="fab fa-microsoft"></i> Power Automate</span>
+      <span class="skill-pill"><i class="fas fa-cloud"></i> SharePoint</span>
+      <span class="skill-pill"><i class="fab fa-google"></i> Google Workspace</span>
+      <span class="skill-pill"><i class="fab fa-microsoft"></i> Microsoft 365</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MI EVOLUCIÓN ===== -->
+<section class="section" id="evolucion">
+  <div class="container">
+    <h2 class="section-title">Mi Evolución</h2>
+    <div class="evolucion-timeline">
+      <div class="timeline-item fade-in">
+        <div class="timeline-icon"><i class="fas fa-truck"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Logística</span>
+          <span class="timeline-year">2020</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-1">
+        <div class="timeline-icon"><i class="fas fa-clipboard-list"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Operaciones</span>
+          <span class="timeline-year">2021</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-2">
+        <div class="timeline-icon"><i class="fas fa-sync-alt"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Control de Procesos</span>
+          <span class="timeline-year">2022</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-3">
+        <div class="timeline-icon"><i class="fas fa-chart-bar"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Análisis de Información</span>
+          <span class="timeline-year">2023</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-4">
+        <div class="timeline-icon"><i class="fas fa-chart-pie"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Power BI</span>
+          <span class="timeline-year">2023</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-5">
+        <div class="timeline-icon"><i class="fas fa-code"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Apps Script</span>
+          <span class="timeline-year">2024</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-6">
+        <div class="timeline-icon"><i class="fab fa-python"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Python</span>
+          <span class="timeline-year">2024</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-7">
+        <div class="timeline-icon"><i class="fas fa-robot"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Automatización</span>
+          <span class="timeline-year">2025</span>
+        </div>
+      </div>
+      <div class="timeline-item fade-in delay-8">
+        <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-label">Desarrollo de Software</span>
+          <span class="timeline-year">2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCIA PROFESIONAL ===== -->
+<section class="section" id="experiencia">
+  <div class="container">
+    <h2 class="section-title">Experiencia Profesional</h2>
+
+    <div class="experiencia-card fade-in">
+      <div class="exp-header">
+        <div>
+          <h3>Asistente Administrativo – Experiencia Estudiantil</h3>
+          <p class="exp-empresa"><i class="fas fa-building"></i> Continental Florida University</p>
+        </div>
+        <span class="exp-fecha"><i class="far fa-calendar-alt"></i> Set. 2024 - Actualidad</span>
+      </div>
+      <ul class="exp-logros">
+        <li>Administración, consolidación y estructuración de bases de datos académicas y administrativas.</li>
+        <li>Diseño e implementación de aplicaciones en AppSheet para seguimiento de estudiantes y expedientes.</li>
+        <li>Automatización de procesos con Google Apps Script y limpieza de datos con Python.</li>
+        <li>Construcción de dashboards en Looker Studio para matrícula, onboarding, avance académico y deserción.</li>
+      </ul>
+      <div class="exp-tech">
+        <span class="badge">Google Sheets</span>
+        <span class="badge">Apps Script</span>
+        <span class="badge">Python</span>
+        <span class="badge">Looker Studio</span>
+        <span class="badge">AppSheet</span>
+      </div>
+      <div class="exp-logro-destacado">
+        <i class="fas fa-trophy"></i> Centralización del 90% de la información institucional y automatización de tareas clave.
+      </div>
+    </div>
+
+    <div class="experiencia-card fade-in delay-1">
+      <div class="exp-header">
+        <div>
+          <h3>Analista de Datos – Experiencia Estudiantil</h3>
+          <p class="exp-empresa"><i class="fas fa-building"></i> Continental Florida University</p>
+        </div>
+        <span class="exp-fecha"><i class="far fa-calendar-alt"></i> Ene. 2023 - Set. 2024</span>
+      </div>
+      <ul class="exp-logros">
+        <li>Actualización, validación y consolidación de datos para reportería gerencial.</li>
+        <li>Elaboración de reportes y dashboards en Power BI para seguimiento diario de atenciones.</li>
+        <li>Implementación de un portal interno en SharePoint con preguntas frecuentes y documentación.</li>
+        <li>Seguimiento de indicadores operativos y tiempos de atención.</li>
+      </ul>
+      <div class="exp-tech">
+        <span class="badge">Power BI</span>
+        <span class="badge">SharePoint</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Excel</span>
+      </div>
+      <div class="exp-logro-destacado">
+        <i class="fas fa-trophy"></i> Reducción del 30% en tiempos de atención mediante dashboards en Power BI.
+      </div>
+    </div>
+
+    <div class="experiencia-card fade-in delay-2">
+      <div class="exp-header">
+        <div>
+          <h3>Auxiliar Administrativo – Contact Center</h3>
+          <p class="exp-empresa"><i class="fas fa-building"></i> Universidad César Vallejo</p>
+        </div>
+        <span class="exp-fecha"><i class="far fa-calendar-alt"></i> Abr. 2022 - Ene. 2023</span>
+      </div>
+      <ul class="exp-logros">
+        <li>Atención al estudiante mediante diferentes canales.</li>
+        <li>Seguimiento de indicadores de atención y productividad.</li>
+        <li>Soporte en trámites académicos, cobranzas y control de estados de cuenta.</li>
+        <li>Gestión de calidad mediante monitoreo y retroalimentación.</li>
+      </ul>
+      <div class="exp-tech">
+        <span class="badge">Excel</span>
+        <span class="badge">CRM</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FORMACIÓN Y CERTIFICACIONES ===== -->
+<section class="section" id="formacion">
+  <div class="container">
+    <h2 class="section-title">Formación y Certificaciones</h2>
+    <div class="cert-grid">
+      <div class="cert-item fade-in">
+        <i class="fas fa-certificate"></i>
+        <div>
+          <h4>Power BI Intensivo</h4>
+          <p>IDAT · 2025</p>
+        </div>
+      </div>
+      <div class="cert-item fade-in delay-1">
+        <i class="fas fa-certificate"></i>
+        <div>
+          <h4>Python for Data Analyst</h4>
+          <p>IDAT · 2024</p>
+        </div>
+      </div>
+      <div class="cert-item fade-in delay-2">
+        <i class="fas fa-certificate"></i>
+        <div>
+          <h4>Desarrollo de Apps Móviles con IA + Flutter</h4>
+          <p>ECN LATAM Academy · 240h</p>
+        </div>
+      </div>
+      <div class="cert-item fade-in delay-3">
+        <i class="fas fa-certificate"></i>
+        <div>
+          <h4>Introducción a la Ciencia de Datos</h4>
+          <p>Cisco Networking Academy</p>
+        </div>
+      </div>
+      <div class="cert-item fade-in delay-4">
+        <i class="fas fa-certificate"></i>
+        <div>
+          <h4>Excel Básico e Intermedio</h4>
+          <p>IDAT</p>
+        </div>
+      </div>
+      <div class="cert-item fade-in delay-5">
+        <i class="fas fa-certificate"></i>
+        <div>
+          <h4>Power BI - Introducción</h4>
+          <p>IDAT</p>
+        </div>
+      </div>
+    </div>
+    <div class="info-card" style="margin-top: 24px;">
+      <p><strong>Idiomas:</strong> Inglés · Básico</p>
+      <p><strong>Estudios:</strong> Desarrollo de Sistemas de Información (En curso)</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROYECTOS DESTACADOS ===== -->
+<section class="section" id="proyectos">
+  <div class="container">
+    <h2 class="section-title">Proyectos Destacados</h2>
+    <div class="proyectos-grid">
+      <div class="proyecto-card fade-in">
+        <div class="proyecto-header">
+          <h4><i class="fas fa-chart-pie"></i> Dashboard de Matrícula</h4>
+          <span class="proyecto-estado activo"><i class="fas fa-circle"></i> Activo</span>
+        </div>
+        <p>Dashboard en Looker Studio para seguimiento de matrícula, onboarding, reincorporación y avance académico.</p>
+        <div class="proyecto-tech">
+          <span class="badge">Looker Studio</span>
+          <span class="badge">Google Sheets</span>
+        </div>
+        <a href="#" class="btn-proyecto">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="proyecto-card fade-in delay-1">
+        <div class="proyecto-header">
+          <h4><i class="fas fa-mobile-alt"></i> App de Seguimiento Estudiantil</h4>
+          <span class="proyecto-estado activo"><i class="fas fa-circle"></i> Activo</span>
+        </div>
+        <p>Aplicación en AppSheet para seguimiento de expedientes y control de estudiantes.</p>
+        <div class="proyecto-tech">
+          <span class="badge">AppSheet</span>
+          <span class="badge">Google Sheets</span>
+        </div>
+        <a href="#" class="btn-proyecto">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="proyecto-card fade-in delay-2">
+        <div class="proyecto-header">
+          <h4><i class="fas fa-robot"></i> Automatización con Apps Script</h4>
+          <span class="proyecto-estado completado"><i class="fas fa-check-circle"></i> Completado</span>
+        </div>
+        <p>Automatización de procesos operativos y limpieza de datos con Google Apps Script y Python.</p>
+        <div class="proyecto-tech">
+          <span class="badge">Apps Script</span>
+          <span class="badge">Python</span>
+        </div>
+        <a href="#" class="btn-proyecto">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="proyecto-card fade-in delay-3">
+        <div class="proyecto-header">
+          <h4><i class="fas fa-chart-bar"></i> Dashboard Power BI</h4>
+          <span class="proyecto-estado completado"><i class="fas fa-check-circle"></i> Completado</span>
+        </div>
+        <p>Panel ejecutivo para seguimiento diario de atenciones y tiempos de respuesta.</p>
+        <div class="proyecto-tech">
+          <span class="badge">Power BI</span>
+          <span class="badge">SQL</span>
+        </div>
+        <a href="#" class="btn-proyecto">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MI FILOSOFÍA ===== -->
+<section class="section filosofia-section">
+  <div class="container">
+    <h2 class="section-title">Mi Filosofía</h2>
+    <div class="filosofia-grid">
+      <blockquote class="filosofia-frase fade-in">
+        <p>"No desarrollo software. Desarrollo soluciones."</p>
+      </blockquote>
+      <blockquote class="filosofia-frase fade-in delay-1">
+        <p>"Los datos sin contexto no generan decisiones."</p>
+      </blockquote>
+      <blockquote class="filosofia-frase fade-in delay-2">
+        <p>"La automatización devuelve tiempo a las personas."</p>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ACTUALMENTE APRENDIENDO ===== -->
+<section class="section" id="aprendiendo">
+  <div class="container">
+    <h2 class="section-title">Actualmente Aprendiendo</h2>
+    <div class="aprendiendo-grid">
+      <div class="aprendiendo-item fade-in">
+        <i class="fas fa-mobile-alt"></i>
+        <span>Flutter</span>
+      </div>
+      <div class="aprendiendo-item fade-in delay-1">
+        <i class="fas fa-database"></i>
+        <span>SQL</span>
+      </div>
+      <div class="aprendiendo-item fade-in delay-2">
+        <i class="fas fa-brain"></i>
+        <span>Machine Learning</span>
+      </div>
+      <div class="aprendiendo-item fade-in delay-3">
+        <i class="fas fa-robot"></i>
+        <span>Inteligencia Artificial</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRINCIPIOS ===== -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Mis Principios</h2>
+    <div class="principios-grid">
+      <div class="principio-item fade-in"><i class="fas fa-check-circle"></i> Responsabilidad</div>
+      <div class="principio-item fade-in delay-1"><i class="fas fa-book"></i> Aprendizaje Continuo</div>
+      <div class="principio-item fade-in delay-2"><i class="fas fa-star"></i> Excelencia</div>
+      <div class="principio-item fade-in delay-3"><i class="fas fa-handshake"></i> Compromiso</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section class="section" id="contacto">
+  <div class="container">
+    <h2 class="section-title">Contacto</h2>
+    <div class="contacto-info">
+      <div class="contacto-item"><i class="fas fa-envelope"></i> jflinares24@gmail.com</div>
+      <div class="contacto-item"><i class="fas fa-phone"></i> +51 924 115 252</div>
+      <div class="contacto-item"><i class="fab fa-linkedin"></i> LinkedIn / JancarlosLinares</div>
+      <div class="contacto-item"><i class="fas fa-map-pin"></i> Callao, Perú</div>
+    </div>
+    <div class="contacto-disponibilidad">
+      <p><i class="fas fa-briefcase"></i> Disponible para: Presencial · Híbrido · Remoto</p>
+      <p><i class="fas fa-bullseye"></i> Interés en: Operaciones, Análisis de Datos, Automatización, BI</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <p class="footer-copy">© 2026 Jancarlos Froilan Linares Sagastizabal</p>
+      <div class="footer-social">
+        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:jflinares24@gmail.com" aria-label="Correo"><i class="fas fa-envelope"></i></a>
+        <a href="https://wa.me/51924115252" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="documents/CV-JancarlosLinares.pdf" target="_blank" aria-label="Descargar CV"><i class="fas fa-file-pdf"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
